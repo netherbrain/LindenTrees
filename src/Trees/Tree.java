@@ -99,22 +99,14 @@ public class Tree {
             //When the rules run out, read the following data which will define
             //the other attributes of the tree
             else{
-                System.out.println(nextLine);
                 sys = new LSystem(nextLine, rules);
                 radius = Float.parseFloat(in.nextLine());
-                System.out.println("radius "+radius);
                 radReduce = Float.parseFloat(in.nextLine());
-                System.out.println("radReduce "+radReduce);
                 branchLen = Float.parseFloat(in.nextLine());
-                System.out.println("branchLen "+branchLen);
                 branchReduce = Float.parseFloat(in.nextLine());
-                System.out.println("branchReduce "+branchReduce);
                 x = Float.parseFloat(in.nextLine());
-                System.out.println("x "+x);
                 y = Float.parseFloat(in.nextLine());
-                System.out.println("y "+y);
                 z = Float.parseFloat(in.nextLine());
-                System.out.println("z "+z);
             }
         } 
         
